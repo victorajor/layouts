@@ -1,0 +1,79 @@
+:root{
+	font-size:16px;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.nav{
+	height:40px; 
+	/*background-color: rgb(89,68,77);*/
+	display: flex;
+	justify-content: space-between;
+/*	border: 1px solid red;
+*/
+}
+ .nav-items ul{
+	display: flex;
+	justify-content: space-around;
+}
+.nav-items li{
+	list-style-type: none;
+}
+.nav-items > ul li a{
+	text-decoration: none;
+}
+
+.nav-items ul li a .home{
+	margin-right:auto;
+}
+.nav img{
+	height: 50px;
+	width:50px;
+}
+.main{
+	height:350px;
+	/*background-color: rgb(70,99,88);*/
+	display: flex;
+	justify-content: center;	
+}
+.main video{
+	height: 300px;
+	width:300px;
+}
+.content{
+	height:300px;
+	/*background-color: rgb(110,120,98);*/
+	display:flex;
+	justify-content: space-around;
+}
+.column{
+	height:150px;
+	/*background-color: red;*/
+	margin:8px;
+	flex-basis: 150px;
+}
+
+
+.sub-content{
+	height:300px;
+	/*background-color: rgb(100,70,90);*/
+	display: flex;
+	justify-content: space-between;
+}
+.recipe{
+	height:250px;
+	flex-basis: 200px;
+	/*background-color: red;*/
+	margin: 8px;
+}
+.footer{
+	height:30px;
+	background-color: rgb(43,32,20);
+
+}
